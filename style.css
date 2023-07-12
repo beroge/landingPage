@@ -1,11 +1,51 @@
 body{
-
+    display: flex;
+    flex-direction: column;
 }
 .header{
-
+    flex-direction: row;
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    color: #fff;
+    padding:0 30px
+}
+.logo{
+    font-weight: bold;
+    font-size:20px;
+    align-self: center;
+}
+.header ul li a,.hero1 p{
+    font-size:18px; 
+    color:#e5e7eb;
+    text-decoration: none;
+}
+.header ul{
+    list-style-type: none;
+    display: flex;
+    gap:15px
 }
 .hero{
-
+display: flex;
+background: #1f2937;
+}
+.hero1{
+    display: flex;
+    flex-direction: column;  
+}
+.hero h1{
+    font: bold 48px; 
+    color:#f9faf8;
+}
+button{
+    background:#3882f6;
+    color:#fff;
+    font-weight: bold;
+    padding:10px;
+    border-radius: 10px;
+}
+.heroimg{
+    
 }
 .container{
 
