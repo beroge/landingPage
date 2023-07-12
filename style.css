@@ -28,14 +28,17 @@ body{
 .hero{
 display: flex;
 background: #1f2937;
+justify-content: space-evenly;
 }
 .hero1{
     display: flex;
-    flex-direction: column;  
+    flex-direction: column; 
+    flex-wrap: inherit; 
 }
 .hero h1{
     font: bold 48px; 
     color:#f9faf8;
+   
 }
 button{
     background:#3882f6;
@@ -43,9 +46,10 @@ button{
     font-weight: bold;
     padding:10px;
     border-radius: 10px;
+    width:100px;
 }
 .heroimg{
-    
+    color:#f9faf8
 }
 .container{
 
@@ -53,8 +57,27 @@ button{
 .info{
 
 }
+.info h2{
+    text-align: center;
+}
+.infoboxes{
+    display: flex;
+}
 .quote{
-
+    background: #abb1ba;
+    padding: 2em;
+}
+blockquote{
+    font: italic lighter 36px/1.5 sans-serif;
+    width:45%;
+    margin:0 auto;
+}
+cite{
+    font:bold 18px/1.5 sans-serif;
+    display: block;
+    text-align: right;
+    padding:1em
+    ;
 }
 .cta{
 
