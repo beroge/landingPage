@@ -2,13 +2,16 @@ body{
     display: flex;
     flex-direction: column;
 }
+.wrapper{
+    width:1080px;
+}
 .header{
     flex-direction: row;
     display: flex;
     justify-content: space-between;
     background: #1f2937;
     color: #fff;
-    padding:0 30px
+    padding:0 40px;
 }
 .logo{
     font-weight: bold;
@@ -29,15 +32,21 @@ body{
 display: flex;
 background: #1f2937;
 justify-content: space-evenly;
+padding:30px 0 86px;
+}
+.hero div{
+    width:37%
 }
 .hero1{
     display: flex;
     flex-direction: column; 
     flex-wrap: inherit; 
 }
-.hero h1{
-    font: bold 48px; 
+
+.hero1 h1{
+    font: bold 48px arial; 
     color:#f9faf8;
+    margin-bottom: 0px;
    
 }
 button{
@@ -55,6 +64,7 @@ button{
 
 }
 .info{
+    padding:2px 0 50px;
 
 }
 .info h2{
@@ -62,14 +72,30 @@ button{
 }
 .infoboxes{
     display: flex;
+    justify-content:center;
+    gap:30px;
+}
+.box img{
+    width: 100px;;
+    height: 100px;
+    border: 2px solid #3223d3;
+    display: block;
+    border-radius: 15px;
+    margin-bottom: 5%;
+
+}
+.box{
+    width:100px;
+    text-align: center;
+    
 }
 .quote{
     background: #abb1ba;
     padding: 2em;
 }
 blockquote{
-    font: italic lighter 36px/1.5 sans-serif;
-    width:45%;
+    font: italic lighter 27px/1.5 sans-serif;
+    width:60%;
     margin:0 auto;
 }
 cite{
