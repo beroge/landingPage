@@ -3,7 +3,10 @@ body{
     flex-direction: column;
 }
 .wrapper{
-    width:1080px;
+    width:auto;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
 }
 .header{
     flex-direction: row;
